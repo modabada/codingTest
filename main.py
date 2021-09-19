@@ -1,5 +1,5 @@
-import makeNewID.newID as makeID
+import test_lv2._2 as test2
 
 if __name__ == "__main__":
     test = "...!@BaT#*..y.abcd"
-    print(makeID.solution(test))
+    print(test2.solution("tesf", "TEST"))
