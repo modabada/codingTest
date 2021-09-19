@@ -2,6 +2,7 @@ import math
 import re
 
 
+
 def solution(str1, str2):
     j1 = list()
     j2 = list()
