@@ -1,4 +1,4 @@
-import numAndStr.number as n
+import keyPad.keyPad as keyPad
 
 if __name__ == "__main__":
-    print(n.solution('nineeightsevensixfivefourthreetwoonezero'))
+    print(keyPad.solution('asdf', 'adf'))
