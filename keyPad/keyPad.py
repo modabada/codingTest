@@ -18,26 +18,26 @@ def solution(numbers, hand):
     for e in numbers:
         if e in [1, 4, 7]:
             answer.append('L')
-            left = e
+            left = key.index(e)
         elif e in [3, 6, 9]:
             answer.append('R')
-            right = e
+            right = key.index(e)
         else:
             inx = key.index(e)
-            left_d = abs(int(inx / 3) - int(left / 3)) + abs(e % 3 - left % 3)
-            right_d = abs(int(inx / 3) - int(right / 3)) + abs(e % 3 - right % 3)
+            left_d = abs(int(inx / 3) - int(left / 3)) + abs(inx % 3 - left % 3)
+            right_d = abs(int(inx / 3) - int(right / 3)) + abs(inx % 3 - right % 3)
             if left_d < right_d:
                 answer.append('L')
-                left = e
+                left = key.index(e)
             elif left_d > right_d:
                 answer.append('R')
-                right = e
+                right = key.index(e)
             else:
                 if hand == 'left':
                     answer.append('L')
-                    left = e
+                    left = key.index(e)
                 else:
                     answer.append('R')
-                    right = e
+                    right = key.index(e)
     return ''.join(answer)
 

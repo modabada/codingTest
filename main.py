@@ -1,4 +1,4 @@
 import keyPad.keyPad as keyPad
 
 if __name__ == "__main__":
-    print(keyPad.solution([1, 2,3, 4, 5, 6], 'left'))
+    print(keyPad.solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], 'left'))
