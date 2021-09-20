@@ -1,5 +1,6 @@
-import test_lv2._2 as test2
+import numAndStr.number as n
 
 if __name__ == "__main__":
-    test = "...!@BaT#*..y.abcd"
-    print(test2.solution("tesf", "TEST"))
+    en = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    # n = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    print(n.solution('nineeightsevensixfivefourthreetwoonezero'))
