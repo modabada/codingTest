@@ -1,3 +1,6 @@
+# programmers.co.kr/learn/courses/30/lessons/64061
+# 인형뽑기
+# 인형을 뽑아 바구니로 옮김, 바구니에 인형이 연속되어 쌓이면 사라짐
 def solution(board, moves):
     answer = 0
     basket = []
