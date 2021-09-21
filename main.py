@@ -1,4 +1,6 @@
-import keyPad.keyPad as keyPad
+import getDoll.main as doll
 
 if __name__ == "__main__":
-    print(keyPad.solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], 'left'))
+    board = [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]
+    moves = [1,5,3,5,1,2,1,4]
+    print(doll.solution(board, moves))
