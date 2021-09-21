@@ -5,3 +5,4 @@ def solution(numbers):
     for e in inter:
         answer += e
     return answer
+# solution = lambda x: 45 - sum(set(numbers))
