@@ -43,7 +43,7 @@ def solution(new_id):
         answer = answer[:15]
     if answer.endswith('.'):
         answer = answer[:-1]
-    
+
     # 7단계
     if len(answer) < 3:
         word = list()
