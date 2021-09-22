@@ -40,4 +40,3 @@ def solution(numbers, hand):
                     answer.append('R')
                     right = key.index(e)
     return ''.join(answer)
-
