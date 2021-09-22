@@ -1,6 +1,13 @@
-import getDoll.main as doll
+import strCompression.main as test
 
 if __name__ == "__main__":
-    board = [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]
-    moves = [1,5,3,5,1,2,1,4]
-    print(doll.solution(board, moves))
+    testSet = [
+        "aabbaccc",
+        "ababcdcdababcdcd",
+        "abcabcdede",
+        "abcabcabcabcdededededede",
+        "xababcdcdababcdcd"
+    ]
+    # answer == 7 9 8 14 17
+    for e in testSet:
+        print("answer = ", test.solution(e))
