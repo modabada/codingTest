@@ -1,4 +1,4 @@
-import strCompression.main as test
+from algorithm_lv2 import strCompression as test
 
 if __name__ == "__main__":
     testSet = [
