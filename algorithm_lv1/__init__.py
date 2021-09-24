@@ -1,3 +1,3 @@
-__all__ = ['addNumbers', 'addPositiveNegative', 'DotProduct', 'getDoll', 'keyPad',
-           'lotto', 'makeNewID', 'makePrimeNumber', 'numAndStr'
+__all__ = ['addNumbers', 'addPositiveNegative', 'cannotComplete', 'DotProduct', 'getDoll',
+           'keyPad', 'lotto', 'makeNewID', 'makePrimeNumber', 'numAndStr'
            ]
