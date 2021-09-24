@@ -1,1 +1,1 @@
-__all__ = ['strCompression']
+__all__ = ['openChatting', 'strCompression']
