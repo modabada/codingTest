@@ -1,13 +1,10 @@
-from algorithm_lv2 import strCompression as test
+from algorithm_lv1.makePrimeNumber import main as test
 
 if __name__ == "__main__":
     testSet = [
-        "aabbaccc",
-        "ababcdcdababcdcd",
-        "abcabcdede",
-        "abcabcabcabcdededededede",
-        "xababcdcdababcdcd"
+        [1, 2, 3, 4],
+        [1, 2, 7, 6, 4]
     ]
-    # answer == 7 9 8 14 17
+    # answer == 1, 4
     for e in testSet:
         print("answer = ", test.solution(e))
