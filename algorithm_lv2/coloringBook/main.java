@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-
+// https://programmers.co.kr/learn/courses/30/lessons/1829
 class Solution {
 	public int[] solution(int m, int n, int[][] picture) {
 		int numberOfArea = 0;
