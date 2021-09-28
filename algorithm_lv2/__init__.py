@@ -1,1 +1,1 @@
-__all__ = ['openChatting', 'strCompression']
+__all__ = ['normalRect', 'openChatting', 'strCompression']
