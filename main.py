@@ -1,10 +1,12 @@
-from algorithm_lv2.openChatting import main as test
+from algorithm_lv2.countOf124 import main as test
 
 if __name__ == "__main__":
     testSet = [
-        ["Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"]
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     ]
-    """answer
-    ["Prodo님이 들어왔습니다.", "Ryan님이 들어왔습니다.", "Prodo님이 나갔습니다.", "Prodo님이 들어왔습니다."]"""
+    """
+    answer
+    1, 2, 4 11
+    """
     for e in testSet:
         print("answer = ", test.solution(e))
