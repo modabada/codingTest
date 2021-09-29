@@ -1,13 +1,11 @@
-from algorithm_lv2.functionDevelopment import main as test
+from algorithm_lv2.moreSpicy import main as test
 
 if __name__ == "__main__":
     testSet = [
-        [93, 30, 55],
-        [95, 90, 99, 99, 80, 99]
+        [1, 2, 3, 9, 10, 12]
     ]
     testSet2 = [
-        [1, 30, 5],
-        [1, 1, 1, 1, 1, 1]
+        7
     ]
     """
     answer
