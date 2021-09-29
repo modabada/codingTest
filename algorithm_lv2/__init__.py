@@ -1,1 +1,1 @@
-__all__ = ['normalRect', 'countOf124', 'openChatting', 'strCompression']
+__all__ = ['normalRect', 'countOf124', 'functionDevelopment', 'openChatting', 'strCompression']

@@ -1,12 +1,18 @@
-from algorithm_lv2.countOf124 import main as test
+from algorithm_lv2.functionDevelopment import main as test
 
 if __name__ == "__main__":
     testSet = [
-        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        [93, 30, 55],
+        [95, 90, 99, 99, 80, 99]
+    ]
+    testSet2 = [
+        [1, 30, 5],
+        [1, 1, 1, 1, 1, 1]
     ]
     """
     answer
-    1, 2, 4 11
+    2, 1
+    1, 3, 2
     """
-    for e in testSet:
-        print("answer = ", test.solution(e))
+    for e, i in zip(testSet, testSet2):
+        print("answer = ", test.solution(e, i))
