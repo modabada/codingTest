@@ -1,11 +1,12 @@
-from algorithm_lv2.targetNumber import main as test
+from algorithm_lv2.removeThatPair import main as test
 
 if __name__ == "__main__":
     testSet = [
-        [1, 1, 1, 1, 1]
+        "baabaa",
+        "cdcd"
     ]
     testSet2 = [
-        3
+        1, 0
     ]
     """
     answer
@@ -13,4 +14,4 @@ if __name__ == "__main__":
     1, 3, 2
     """
     for e, i in zip(testSet, testSet2):
-        print("answer = ", test.solution(e, i))
+        print("answer = ", test.solution(e))
