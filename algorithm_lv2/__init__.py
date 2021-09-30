@@ -1,1 +1,4 @@
-__all__ = ['countOf124', 'functionDevelopment', 'moreSpicy', 'normalRect', 'openChatting', 'strCompression']
+__all__ = [
+    'countOf124', 'functionDevelopment', 'moreSpicy', 'normalRect', 'openChatting',
+    'strCompression', 'targetNumber'
+]
