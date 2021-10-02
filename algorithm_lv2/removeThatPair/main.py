@@ -1,4 +1,4 @@
-https://programmers.co.kr/learn/courses/30/lessons/12973
+# https://programmers.co.kr/learn/courses/30/lessons/12973
 def solution(s):
     stack = list(s[:1])
     for e in s[1:]:
