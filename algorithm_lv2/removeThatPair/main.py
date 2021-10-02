@@ -1,14 +1,8 @@
 def solution(s):
-    s = list(s)
-    while True:
-        inx = []
-        for i in range(1, len(s)):
-            if s[i - 1] == s[i]:
-                inx.append(i - 1)
-                inx.append(i)
-                break
-        if not s:
-            return 1
-        if not inx:
-            return 0
-        s = [s[i] for i in range(0, len(s)) if i not in inx]
+    stack = list(s[:1])
+    for e in s[1:]:
+        if stack and stack[-1] == e:
+            stack.pop()
+        else:
+            stack.append(e)
+    return 1 if not stack else 0
