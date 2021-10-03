@@ -1,4 +1,4 @@
 __all__ = [
-    'countOf124', 'functionDevelopment', 'moreSpicy', 'menuRenewal', 'normalRect',
-    'openChatting', 'removeThatPair', 'strCompression', 'targetNumber'
+    'countOf124', 'fixBracket', 'functionDevelopment', 'moreSpicy', 'menuRenewal',
+    'normalRect', 'openChatting', 'removeThatPair', 'strCompression', 'targetNumber'
 ]
