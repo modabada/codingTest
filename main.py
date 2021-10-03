@@ -1,20 +1,22 @@
-from algorithm_lv2.fixBracket import main as test
+from algorithm_lv2.newsClustering import main as test
 
 if __name__ == "__main__":
     testSet = [
-        "(()())()",
-        ")(",
-        "()))((()"
+        "FRANCE",
+        "handshake",
+        "aa1+aa2",
+        "E=M*C^2"
     ]
     testSet2 = [
-        [2, 3, 4],
-        [2, 3, 5],
-        [2, 3, 4]
+        "french",
+        "shake hands",
+        "AAAA12",
+        "e=m*c^2"
     ]
     """
     answer
     2, 1
     1, 3, 2
     """
-    for a in testSet:
-        print("answer = ", test.solution(a))
+    for a, b in zip(testSet, testSet2):
+        print("answer = ", test.solution(a, b))
