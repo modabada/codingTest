@@ -1,5 +1,5 @@
 __all__ = [
-    'countOf124', 'fixBracket', 'functionDevelopment', 'moreSpicy', 'menuRenewal',
-    'newsClustering', 'normalRect', 'openChatting', 'removeThatPair', 'strCompression',
-    'targetNumber'
+    'countOf124', 'fixBracket', 'functionDevelopment', 'moreSpicy', 'keepDistance',
+    'menuRenewal', 'newsClustering', 'normalRect', 'openChatting', 'removeThatPair',
+    'strCompression', 'targetNumber'
 ]

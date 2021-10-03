@@ -1,22 +1,21 @@
-from algorithm_lv2.newsClustering import main as test
+import algorithm_lv2.keepDistance.main
+from algorithm_lv2.keepDistance import main as test
 
 if __name__ == "__main__":
     testSet = [
-        "FRANCE",
-        "handshake",
-        "aa1+aa2",
-        "E=M*C^2"
+        [
+            [
+                "POOOP",
+                "OXXOX",
+                "OPXPX",
+                "OOXOX",
+                "POXXP"
+            ],
+            ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"],
+            ["PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"],
+            ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"],
+            ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]
+        ]
     ]
-    testSet2 = [
-        "french",
-        "shake hands",
-        "AAAA12",
-        "e=m*c^2"
-    ]
-    """
-    answer
-    2, 1
-    1, 3, 2
-    """
-    for a, b in zip(testSet, testSet2):
-        print("answer = ", test.solution(a, b))
+    for a in testSet:
+        print("answer = ", test.solution(a))
