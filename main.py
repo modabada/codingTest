@@ -1,32 +1,9 @@
-from algorithm_lv2.keepDistance import main as test
+from algorithm_lv2.maximumEXP import main as test
 
 if __name__ == "__main__":
     testSet = [
-        [
-            [
-                "POOOP",
-                "OXXOX",
-                "OPXPX",
-                "OOXOX",
-                "POXXP"
-            ],
-            [
-                "POOPX",
-                "OXPXP",
-                "PXXXO",
-                "OXXXO",
-                "OOOPP"
-            ],
-            [
-                "PXOPX",
-                "OXOXP",
-                "OXPOX",
-                "OXXOP",
-                "PXPOX"
-            ],
-            ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"],
-            ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]
-        ]
+        "100-200*300-500+20",
+        "50*6-3*2"
     ]
 
     for a in testSet:
