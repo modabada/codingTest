@@ -1,10 +1,8 @@
-from algorithm_lv2.lightCycle import main as test
+from algorithm_lv2.phoneBook import main as test
 
 if __name__ == "__main__":
     testSet = [
-        ["SL", "LR"],
-        ["S"],
-        ["R", "R"]
+        ["119", "97674223", "1195524421"]
     ]
 
     for a in testSet:
