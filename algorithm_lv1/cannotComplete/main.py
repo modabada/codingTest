@@ -1,3 +1,2 @@
-# https://programmers.co.kr/learn/courses/30/lessons/42576
-solution = lambda participant, completion: \
-[x for x, y in zip(sorted(participant), sorted(completion + ['z'])) if x != y][0]
+from hash.cannotComplete import main as not_completed
+solution = lambda participant, completion: not_completed.solution(participant, completion)
