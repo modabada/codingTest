@@ -1,4 +1,6 @@
 def solution(grid):
+    # while False in cycle, cycle.index(False)
+    # 위의 두 부분에서 매 루프마다 선형탐색을 통해 False 값을 찾기 때문에 해당 시간복잡도가 크게 떨어짐
     answer = []
     width = len(grid[0])
     height = len(grid)
