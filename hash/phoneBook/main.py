@@ -1,17 +1,10 @@
 def solution(phone_book):
+    # 정렬하면 우선 문자열의 앞부분이 같아질거고, 그중 긴 문자열은 뒤로갈거임
+    # = 앞에있는 문자열 만이 뒤의 문자열의 접두사가 될 수 있음
     phone_book.sort()
-    # 정렬할 경우 앞 문자가 똑같아질거고 길이가 긴 문자는 뒤로갈것임
-    # 이하 뜯어고쳐
-    phone_book.sort(key=len)
-    word = list()
-    for e in phone_book:
-        if len(e) != len(phone_book[0]):
-            break
-        word.append(e)
-        phone_book.remove(e)
-    for w in word:
-        word_len = len(w)
-        for e in phone_book:
-            if w == e[:word_len]:
-                return False
+    tmp = phone_book[0]
+    for i in range(1, len(phone_book)):
+        if phone_book[i][:len(tmp)] == tmp:
+            return False
+        tmp = phone_book[i]
     return True
