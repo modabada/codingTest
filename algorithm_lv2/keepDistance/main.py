@@ -27,7 +27,8 @@ def checkRule(x, y, e):
                     continue
                 if x == posX and e[posY + int((y - posY) / 2)][x] == 'X':
                     continue
-                if y != posY and x != posX and e[posY + (- 1 if posY > y else 1)][posX] == 'X' and e[posY][posX + (-1 if posX > x else 1)] == 'X':
+                if y != posY and x != posX and e[posY + (- 1 if posY > y else 1)][posX] == 'X' and \
+                        e[posY][posX + (-1 if posX > x else 1)] == 'X':
                     continue
                 return False
     return True
