@@ -1,3 +1,3 @@
 __all__ = [
-    'camouflage', 'cannotComplete', 'phoneBook'
+    'bestAlbum', 'camouflage', 'cannotComplete', 'phoneBook'
 ]
