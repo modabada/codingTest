@@ -1,6 +1,5 @@
 __all__ = [
-    'camouflage', 'countOf124', 'fixBracket', 'functionDevelopment', 'moreSpicy', 'keepDistance',
-    'lightCycle', 'maximumEXP', 'menuRenewal', 'newsClustering', 'normalRect',
-    'openChatting', 'printer', 'phoneBook', 'removeThatPair', 'strCompression', 'targetNumber',
-    'tuple'
+    'camouflage', 'countOf124', 'fixBracket', 'functionDevelopment', 'keepDistance', 'lightCycle', 'maximumEXP',
+    'menuRenewal', 'moreSpicy', 'newsClustering', 'normalRect', 'openChatting', 'phoneBook', 'printer',
+    'removeThatPair', 'stock', 'strCompression', 'targetNumber', 'truck_cross_bridge', 'tuple'
 ]

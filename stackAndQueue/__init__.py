@@ -1,3 +1,3 @@
 __all__ = [
-    'functionDevelopment', 'printer'
+    'functionDevelopment', 'printer', 'stock', 'truck_cross_bridge'
 ]

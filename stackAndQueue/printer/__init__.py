@@ -1,1 +1,1 @@
-__all__ = ['main.py']
+__all__ = ['main']
