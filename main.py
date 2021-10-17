@@ -1,9 +1,8 @@
-from hash.camouflage import main as test
+from heap.disc_control import main as test
 
 if __name__ == "__main__":
     testSet = [
-        [["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]],
-        [["crow_mask", "face"], ["blue_sunglasses", "face"], ["smoky_makeup", "face"]]
+        [[0, 3], [1, 9], [2, 6]]
     ]
 
     for a in testSet:
