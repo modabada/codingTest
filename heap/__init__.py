@@ -1,3 +1,3 @@
 __all__ = [
-    'disc_control', 'moreSpicy'
+    'disc_control', 'doublePriority', 'moreSpicy'
 ]
