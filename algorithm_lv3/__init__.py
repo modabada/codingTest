@@ -1,1 +1,1 @@
-__all__ = ['bestAlbum']
+__all__ = ['bestAlbum', 'doublePriority']
