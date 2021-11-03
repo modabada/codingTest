@@ -1,9 +1,12 @@
-from heap.disc_control import main as test
+from kit.greedy import connect_island as test
 
 if __name__ == "__main__":
-    testSet = [
-        [[0, 3], [1, 9], [2, 6]]
+    set1 = [
+        4
+    ]
+    set2 = [
+        [[0,1,1],[0,2,2],[1,2,5],[1,3,1],[2,3,8]]
     ]
 
-    for a in testSet:
-        print("answer = ", test.solution(a))
+    for x, y in zip(set1, set2):
+        print("answer = ", test.solution(x, y))

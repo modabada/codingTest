@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\kit",
-    "\\kit\\stack_and_queue"
+    "\\level3"
   ],
-  "SelectedNode": "\\kit\\stack_and_queue",
+  "SelectedNode": "\\level3\\__init__.py",
   "PreviewInSolutionExplorer": false
 }
