@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\testKit\\hash",
-    "\\testKit\\sort\\H_index",
-    "\\testKit\\sort\\Knumber",
-    "\\testKit\\sort\\max_number"
+    "\\kit",
+    "\\kit\\stack_and_queue"
   ],
-  "SelectedNode": "\\testKit",
+  "SelectedNode": "\\kit\\stack_and_queue",
   "PreviewInSolutionExplorer": false
 }
