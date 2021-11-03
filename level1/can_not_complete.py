@@ -1,0 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/42576
+
+
+solution = lambda participant, completion: \
+[x for x, y in zip(sorted(participant), sorted(completion + ['zzzzzzzz'])) if x != y][0]
