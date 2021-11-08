@@ -1,21 +1,18 @@
+# https://programmers.co.kr/learn/courses/30/lessons/42895
 def solution(N, number):
-    # dfs is never can`t, solution(1, 122)  
-    # but wfs can find min answer
-    arr = [int(str(N) * i) for i in range(1, 9)]
+    arr = []
+    for i in range(8):
+        numbers = set()
+        numbers.add(int(str(N) * (i + 1)))
+        for j in range(i):
+            for x in arr[j]:
+                for y in arr[-j - 1]:
+                    numbers.add(x + y)
+                    numbers.add(x * y)
+                    numbers.add(x - y)
+                    if y != 0:
+                        numbers.add(x // y)
+        if number in numbers:
+            return i + 1
+        arr.append(numbers)
     return -1
-
-
-
-
-t1 = [
-    5, 12
-]
-t2 = [
-    12, 11
-]
-ans = [
-    4, 3
-]
-[print(solution(t1[i], t2[i])) for i in range(len(t1))]
-
-
