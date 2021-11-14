@@ -1,3 +1,3 @@
 __all__ = [
-    "Nexpression", "triangle"
+    "go_to_school", "Nexpression", "triangle"
 ]
