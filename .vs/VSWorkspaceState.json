@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\level3"
+    "\\kit",
+    "\\kit\\dynamic_programming",
+    "\\level2"
   ],
-  "SelectedNode": "\\level3\\__init__.py",
+  "SelectedNode": "\\kit\\dynamic_programming\\thievery.py",
   "PreviewInSolutionExplorer": false
 }
