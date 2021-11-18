@@ -1,3 +1,3 @@
 __all__ = [
-    'target_number'
+    'network', 'target_number'
 ]
