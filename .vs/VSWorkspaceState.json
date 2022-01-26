@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\kit"
+    "\\kit",
+    "\\kit\\DFS_BFS",
+    "\\kit\\dynamic_programming"
   ],
+  "SelectedNode": "\\kit\\DFS_BFS\\travel_path.py",
   "PreviewInSolutionExplorer": false
 }
