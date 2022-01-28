@@ -3,19 +3,19 @@
 
 def solution(tickets):
     tickets.sort()
-    visited = list()
-
-    def dfs(route):
+    def dfs(visited, route):
+        visited = visited[:]
+        if False not in visited:
+            return route
         for i, e in enumerate(tickets):
-            if route[-1] == e[0]:
-                del tickets[i]
-                print(e)
-                route = dfs(route + [e[1]])
-        return route
-
-    r = dfs(["ICN"])
-    print(visited)
-    return r
+            if route[-1] == e[0] and not visited[i]:
+                visited[i] = True
+                v = dfs(visited, route + [e[1]])
+                if v != None:
+                    return v
+                else:
+                    visited[i] = False
+    return dfs([False] * len(tickets), ["ICN"])
 
 pram = [
     [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]],
