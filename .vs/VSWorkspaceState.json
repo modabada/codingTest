@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\kit",
-    "\\kit\\DFS_BFS",
-    "\\kit\\dynamic_programming"
+    "\\kit\\binary_search",
+    "\\kit\\sort"
   ],
-  "SelectedNode": "\\kit\\DFS_BFS\\travel_path.py",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
