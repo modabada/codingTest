@@ -42,7 +42,3 @@ p2 = [
 ans = [
     3
 ]
-
-for a, b, res in zip(p1, p2, ans):
-    sol = solution(a, b)
-    print(True if sol == res else sol)

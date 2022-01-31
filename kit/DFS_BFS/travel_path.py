@@ -38,9 +38,3 @@ res = [
     ["ICN", "AOO", "ICN", "AOO", "COO"],
     ["ICN", "AAA", "ICN", "AAA", "ICN", "AAA"]
 ]
-for p, r in zip(pram, res):
-    sol = solution(p)
-    print(sol == r)
-    print(sol)
-    print(r)
-    print()

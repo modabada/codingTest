@@ -25,7 +25,3 @@ def solution(begin, target, words):
                     print(element[1])
                     queue.append((word, element[1] + 1))
     return 0
-
-
-print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]), 4)
-print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log"]), 0)

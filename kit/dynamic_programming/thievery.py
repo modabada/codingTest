@@ -30,5 +30,3 @@ def solution(a):
         x2, y2, z2 = y2, z2, max(x2, y2)+i
     return max(x1, y1, y2, z2)
 """
-print(solution([0, 0, 0, 3, 0, 3 ,4]))
-print(solution([1, 2, 3, 1]))

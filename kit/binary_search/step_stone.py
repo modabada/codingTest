@@ -31,18 +31,3 @@ def solution(distance, rocks, n):
 # 바위의 거리가 mid 보다 작으면 cnt 증가 및 last 비갱신(바위를 파괴했음)
 # cnt > mid면 이분값의 아래에 대해 반복
 # cnt < mid면 이분값의 상위에 대해 반복, answer는 임시로 mid로 설정
-p1 = [
-    25
-]
-p2 = [
-    [2, 14, 11, 21, 17]
-]
-p3 = [2
-]
-ans = [
-    3
-]
-
-for a, b, c, d in zip(p1, p2, p3, ans):
-    sol = solution(a, b, c)
-    print(True if sol == d else sol)

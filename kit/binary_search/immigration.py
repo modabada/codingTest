@@ -22,22 +22,3 @@ def solution(n, times):
 # -> 있다면 더 적은 시간으로도 처리 가능이란 소리니 최대를 mid - 1로 재설정 후 반복
 # -> 없다면 지금 시간으로 처리 불가능하다는 소리니 최소를 mid + 1로 재설정 후 반복
 # 위의 동작을 최소, 최대시간이 겹칠 때까지 반복 후 최종값 반환
-
-p1 = [
-    6
-]
-p2 = [
-    [7, 10]
-]
-ans = [
-    28
-]
-
-
-for a, b, c in zip(p1, p2, ans):
-    res = solution(a, b)
-    if res == ans:
-        print(True)
-    else:
-        print(res)
-    print()
