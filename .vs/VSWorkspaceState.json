@@ -3,8 +3,9 @@
     "",
     "\\kit",
     "\\kit\\binary_search",
-    "\\kit\\sort"
+    "\\kit\\DFS_BFS",
+    "\\kit\\graph"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\kit\\DFS_BFS",
   "PreviewInSolutionExplorer": false
 }
