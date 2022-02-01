@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>codingTest</Name>
     <RootNamespace>codingTest</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda39-64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -149,6 +150,10 @@
     <Content Include="level2\group_picture.java" />
     <Content Include="level2\stock.java" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|codingTest" />
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda39-64" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
