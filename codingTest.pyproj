@@ -120,6 +120,8 @@
     <Compile Include="test_lv2\_1.py" />
     <Compile Include="test_lv2\_2.py" />
     <Compile Include="test_lv2\__init__.py" />
+    <Compile Include="test_lv3\_1.py" />
+    <Compile Include="test_lv3\_2.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="kit\" />
@@ -140,6 +142,7 @@
     <Folder Include="level3\" />
     <Folder Include="test_lv1\" />
     <Folder Include="test_lv2\" />
+    <Folder Include="test_lv3\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="kit\greedy\__pycache__\connect_island.cpython-38.pyc" />
