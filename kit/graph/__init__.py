@@ -1,1 +1,1 @@
-__all__ = ["farthest", "ranking"]
+__all__ = ["farthest", "ranking", "rooms"]

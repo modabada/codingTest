@@ -41,6 +41,8 @@
     <Compile Include="kit\dynamic_programming\triangle.py" />
     <Compile Include="kit\dynamic_programming\__init__.py" />
     <Compile Include="kit\graph\farthest.py" />
+    <Compile Include="kit\graph\ranking.py" />
+    <Compile Include="kit\graph\rooms.py" />
     <Compile Include="kit\graph\__init__.py" />
     <Compile Include="kit\greedy\cctv.py" />
     <Compile Include="kit\greedy\connect_island.py" />
