@@ -1,1 +1,4 @@
-https://backlog.com/git-tutorial/kr/intro/intro1_2.html
+kit폴더: 프로그래머스 코딩테스트 고득점 kit 모음, 분류별로 폴더로 정리
+levelN폴더: 프로그래머스 스킬체크 레벨 테스트코드
+test_lvN폴더: 그 외의 테스트 레벨별로 분류
+
