@@ -113,6 +113,7 @@
     <Compile Include="level3\connect_island.py" />
     <Compile Include="level3\disk_controller.py" />
     <Compile Include="level3\double_priority_queue.py" />
+    <Compile Include="level3\stepping_bridge.py" />
     <Compile Include="level3\__init__.py" />
     <Compile Include="test_lv1\_1.py" />
     <Compile Include="test_lv1\_2.py" />
