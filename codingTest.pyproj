@@ -82,6 +82,7 @@
     <Compile Include="level1\sportwear.py" />
     <Compile Include="level1\str_and_number.py" />
     <Compile Include="level1\__init__.py" />
+    <Compile Include="level2\biggerBehind.py" />
     <Compile Include="level2\camouflage.py" />
     <Compile Include="level2\carpet.py" />
     <Compile Include="level2\country_of_124.py" />
@@ -94,6 +95,7 @@
     <Compile Include="level2\lifeboat.py" />
     <Compile Include="level2\light_cycle.py" />
     <Compile Include="level2\make_large_number.py" />
+    <Compile Include="level2\make_most_less.py" />
     <Compile Include="level2\max_express.py" />
     <Compile Include="level2\max_number.py" />
     <Compile Include="level2\menu_renewal.py" />
