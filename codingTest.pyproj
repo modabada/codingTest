@@ -72,6 +72,7 @@
     <Compile Include="level1\add_n_p.py" />
     <Compile Include="level1\add_prime_number.py" />
     <Compile Include="level1\can_not_complete.py" />
+    <Compile Include="level1\cleanning_wallpaper.py" />
     <Compile Include="level1\dot_product.py" />
     <Compile Include="level1\exam.py" />
     <Compile Include="level1\get_doll.py" />
@@ -79,6 +80,7 @@
     <Compile Include="level1\K_number.py" />
     <Compile Include="level1\lotto.py" />
     <Compile Include="level1\makeID.py" />
+    <Compile Include="level1\running_race.py" />
     <Compile Include="level1\sportwear.py" />
     <Compile Include="level1\str_and_number.py" />
     <Compile Include="level1\__init__.py" />
