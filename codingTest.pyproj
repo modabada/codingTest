@@ -29,6 +29,7 @@
     <Compile Include="kit\brute_force_search\carpet.py" />
     <Compile Include="kit\brute_force_search\exam.py" />
     <Compile Include="kit\brute_force_search\find_prime.py" />
+    <Compile Include="kit\brute_force_search\vowels_dict.py" />
     <Compile Include="kit\brute_force_search\__init__.py" />
     <Compile Include="kit\DFS_BFS\change_word.py" />
     <Compile Include="kit\DFS_BFS\network.py" />
@@ -81,6 +82,7 @@
     <Compile Include="level1\lotto.py" />
     <Compile Include="level1\makeID.py" />
     <Compile Include="level1\running_race.py" />
+    <Compile Include="level1\smaller_substring.py" />
     <Compile Include="level1\sportwear.py" />
     <Compile Include="level1\str_and_number.py" />
     <Compile Include="level1\__init__.py" />
@@ -96,6 +98,7 @@
     <Compile Include="level2\keep_distance.py" />
     <Compile Include="level2\lifeboat.py" />
     <Compile Include="level2\light_cycle.py" />
+    <Compile Include="level2\magical_elevator.py" />
     <Compile Include="level2\make_large_number.py" />
     <Compile Include="level2\make_most_less.py" />
     <Compile Include="level2\max_express.py" />
@@ -103,14 +106,17 @@
     <Compile Include="level2\menu_renewal.py" />
     <Compile Include="level2\news_clustering.py" />
     <Compile Include="level2\normal_rect.py" />
+    <Compile Include="level2\N_lcm.py" />
     <Compile Include="level2\openchatting.py" />
     <Compile Include="level2\phone_number.py" />
     <Compile Include="level2\printer.py" />
     <Compile Include="level2\remove_compare.py" />
     <Compile Include="level2\scoville.py" />
+    <Compile Include="kit\brute_force_search\split_wires.py" />
     <Compile Include="level2\str_compressed.py" />
     <Compile Include="level2\target_number.py" />
     <Compile Include="level2\tueples.py" />
+    <Compile Include="level2\variation_cantorian_bin.py" />
     <Compile Include="level2\__init__.py" />
     <Compile Include="level3\best_album.py" />
     <Compile Include="level3\cctv.py" />
